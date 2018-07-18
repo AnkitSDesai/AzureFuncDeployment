@@ -5,7 +5,7 @@ module.exports = function (context, req) {
         let sq = req.query.number * req.query.number;
 
         context.res = {
-            // status: 200, /* Defaults to 200 */
+            //updating comment lines
             body: {
                 square: sq,
                 num: req.query.number
